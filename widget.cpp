@@ -44,6 +44,7 @@ bool copyFile(const QString &source, const QString &destination, const QString &
         QTextStream in(&src);
         in.setCodec("UTF-8");
         QString context=in.readAll();
+        context.replace("TEMPLATE",replacestr.toUpper());
         context.replace("Template",replacestr);
         if(!des.exists())
             des.open(QIODevice::ReadWrite|QIODevice::Text);
@@ -83,6 +84,7 @@ MainWidget::MainWidget(QWidget *parent)
     ui->imageLabel->setScaledContents(true);
     ui->createButton->setEnabled(false);
     this->setPalette(QPalette(QColor(174, 174, 174)));
+    this->ui->nameLineEdit->setFocus();
 }
 
 MainWidget::~MainWidget()
@@ -159,9 +161,12 @@ void MainWidget::toCopy(const QString &source, const QString &destination)
     QDir file(source);
     if(file.exists()){
         copyDir(source+"/file",destination+"/"+name,true);
+        copyFile(source+"/main.c",destination+"/"+name+"/USER/main.c",name);
+        copyFile(source+"/Template.h",destination+"/"+name+"/HARDWARE/"+name+".h",name);
+        copyFile(source+"/Template.c",destination+"/"+name+"/HARDWARE/"+name+".c",name);
         copyFile(source+"/Template.uvguix.Moon",destination+"/"+name+"/USER/"+name+".uvguix.Moon",name);
         copyFile(source+"/Template.map",destination+"/"+name+"/USER/Listings/"+name+".map",name);
-        copyFile(source+"Template.uvoptx",destination+"/"+name+"/USER/"+name+".uvoptx",name);
+        copyFile(source+"/Template.uvoptx",destination+"/"+name+"/USER/"+name+".uvoptx",name);
         copyFile(source+"/Template.uvprojx",destination+"/"+name+"/USER/"+name+".uvprojx",name);
         if(QMessageBox::question(this,"","A new project has been created. Do you want to open the project?",QMessageBox::Ok|QMessageBox::Cancel)==QMessageBox::Ok){
             system(QString{"start "+destination+"/"+name+"/USER/"+name+".uvprojx"}.toStdString().data());
