@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>BeaCheckBox.qml</file>
+        <file>BeaButton.qml</file>
+    </qresource>
+    <qresource prefix="/font"/>
+</RCC>

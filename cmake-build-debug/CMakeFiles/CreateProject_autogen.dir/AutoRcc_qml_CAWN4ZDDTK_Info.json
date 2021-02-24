@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CreateProject_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject",
+	"INCLUDE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CreateProject_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Moon/Code/ClionProjects/CreateProject/source/BeaCheckBox.qml",
+		"C:/Users/Moon/Code/ClionProjects/CreateProject/source/BeaButton.qml",
+		"C:/Users/Moon/Code/ClionProjects/CreateProject/source/main.qml"
+	],
+	"LOCK_FILE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CMakeFiles/CreateProject_autogen.dir/AutoRcc_qml_CAWN4ZDDTK_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "CAWN4ZDDTK",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CMakeFiles/CreateProject_autogen.dir/AutoRcc_qml_CAWN4ZDDTK_Used.txt",
+	"SOURCE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/source/qml.qrc",
+	"VERBOSITY" : 0
+}

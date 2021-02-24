@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+aa33359cc10e134114e68e6e4a33bcd7 CMakeFiles/CreateProject_autogen
+2ce8cf2e06eccdf042c788cc6a67492b CreateProject_autogen/CAWN4ZDDTK/qrc_font.cpp
+17acebf0f53c79eb8d97c8e20079d869 CreateProject_autogen/CAWN4ZDDTK/qrc_image.cpp
+89573fd540a039a4b720ccf5d5c78dff CreateProject_autogen/CAWN4ZDDTK/qrc_qml.cpp

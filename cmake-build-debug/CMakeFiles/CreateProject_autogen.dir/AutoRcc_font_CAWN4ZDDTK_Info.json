@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CreateProject_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject",
+	"INCLUDE_DIR" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CreateProject_autogen/include",
+	"INPUTS" : [ "C:/Users/Moon/Code/ClionProjects/CreateProject/source/STXINGKA.TTF" ],
+	"LOCK_FILE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CMakeFiles/CreateProject_autogen.dir/AutoRcc_font_CAWN4ZDDTK_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "font" ],
+	"OUTPUT_CHECKSUM" : "CAWN4ZDDTK",
+	"OUTPUT_NAME" : "qrc_font.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/mingw64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/cmake-build-debug/CMakeFiles/CreateProject_autogen.dir/AutoRcc_font_CAWN4ZDDTK_Used.txt",
+	"SOURCE" : "C:/Users/Moon/Code/ClionProjects/CreateProject/source/font.qrc",
+	"VERBOSITY" : 0
+}
